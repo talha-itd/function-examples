@@ -1,7 +1,6 @@
 node_modules
 **/target/
 *.wasm
-.env
 .DS_Store
 .yalc
 yarn.lock
@@ -32,3 +31,4 @@ sample-apps/*/public/build/*
 !sample-apps/**/shopify.extension.toml
 !sample-apps/**/locales/*.json
 dev.sqlite
+config.bat
